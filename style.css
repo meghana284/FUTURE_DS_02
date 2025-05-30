@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e; /* Dark background similar to image */
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.dashboard-card {
+    background-color: #2a2a4a;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 400px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.card-header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.card-header h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.metric-item {
+    text-align: center;
+}
+.metric-value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #66ccff; /* Example accent color */
+}
+.metric-label {
+    font-size: 0.8em;
+    color: #aaa;
+}

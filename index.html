@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Twitter Dashboard Section</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-card">
+        <div class="card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter Logo">
+            <h2>Twitter - Overview</h2>
+        </div>
+        <div class="metrics">
+            <div class="metric-item">
+                <div class="metric-value">446</div>
+                <div class="metric-label">Tweets</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">209</div>
+                <div class="metric-label">Followers</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">196</div>
+                <div class="metric-label">Following</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">570</div>
+                <div class="metric-label">Mentions</div>
+            </div>
+        </div>
+        <canvas id="twitterChart"></canvas>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
